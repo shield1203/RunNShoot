@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "GoalActor.h"
 #include "Run_N_Shoot1.h"
 #include "Kismet/GameplayStatics.h"
@@ -8,7 +5,6 @@
 // Sets default values
 AGoalActor::AGoalActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	CollisionComponent = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComponent"));
